@@ -106,7 +106,6 @@ body {
     font-family: var(--INTERNAL-MAIN-font);
 }
 
-.footerVisitedLinks > *,
 a,
 .anchor,
 #toc-menu,
@@ -138,16 +137,14 @@ a:hover,
 
 #sidebar .collapsible-menu .toggle,
 #sidebar .select-container,
-#sidebar a,
-#sidebar button {
+#sidebar a {
     color: var(--INTERNAL-MENU-SECTIONS-LINK-color);
 }
 
 #sidebar select:hover,
 #sidebar .collapsible-menu .toggle:hover,
 #sidebar .select-container:hover,
-#sidebar a:hover,
-#sidebar button:hover {
+#sidebar a:hover {
     color: var(--INTERNAL-MENU-SECTIONS-LINK-HOVER-color);
 }
 

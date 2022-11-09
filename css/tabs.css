@@ -12,16 +12,12 @@
     font-size: .9rem;
     font-weight: 500;
     line-height: 1.42857143;
-    margin-inline-start: 4px;
+    margin-left: 4px;
     padding: 6px 12px;
     position: relative;
 }
-#body .tab-nav-button.direction-rtl {
-    float: right;
-}
-
 #body .tab-nav-button:first-child {
-    margin-inline-start: 9px;
+    margin-left: 9px;
 }
 #body .tab-nav-button:not(.active) {
     border-bottom-color: rgba( 134, 134, 134, .1 );

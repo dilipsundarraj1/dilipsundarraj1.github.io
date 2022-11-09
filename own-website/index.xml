@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Build Your Own Website on Code With Dilip</title>
+    <link>https://code-with-dilip.github.io/own-website/</link>
+    <description>Recent content in Build Your Own Website on Code With Dilip</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://code-with-dilip.github.io/own-website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a Website Using Hugo &amp; Host in GitHub Pages</title>
+      <link>https://code-with-dilip.github.io/own-website/hugo-github-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://code-with-dilip.github.io/own-website/hugo-github-pages/</guid>
+      <description>This article explains about how to build a website using Hugo and host it in GitHub-Pages
+Introduction In this article, I will take you all step by step to build a website using Hugo and host it using GitHub Pages
+For any developer out there, having a website is a great way to share knowledge to the outside world. Prerequisites Hugo needs to be installed in your machine Installation Steps of hugo Knowledge of working with Github is required What is Hugo ?</description>
+    </item>
+  </channel>
+</rss>

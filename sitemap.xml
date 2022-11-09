@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/pages/my-first-page/</loc>
-    <lastmod>2022-11-08T14:12:26-06:00</lastmod>
+    <loc>https://code-with-dilip.github.io/own-website/hugo-github-pages/</loc>
   </url>
   <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2022-11-08T14:12:26-06:00</lastmod>
+    <loc>https://code-with-dilip.github.io/own-website/</loc>
   </url>
   <url>
-    <loc>http://example.org/pages/</loc>
-    <lastmod>2022-11-08T14:12:26-06:00</lastmod>
+    <loc>https://code-with-dilip.github.io/</loc>
   </url>
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://code-with-dilip.github.io/categories/</loc>
   </url>
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://code-with-dilip.github.io/tags/</loc>
   </url>
 </urlset>
