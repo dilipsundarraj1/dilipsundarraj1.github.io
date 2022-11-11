@@ -15,6 +15,7 @@
     overflow-y: auto;
     box-sizing: border-box;
 }
+
 .autocomplete-suggestion {
     position: relative;
     cursor: pointer;
