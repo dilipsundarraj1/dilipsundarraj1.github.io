@@ -7,22 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://code-with-dilip.github.io/own-website/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Part 1 - Build a Website Using Hugo &amp; Host in GitHub Pages</title>
-      <link>https://code-with-dilip.github.io/own-website/hugo-github-pages/01_build_a_website_using_hugo_index/</link>
+      <title>Build a Website Using Hugo &amp; Host in GitHub Pages</title>
+      <link>https://code-with-dilip.github.io/own-website/hugo-github-pages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://code-with-dilip.github.io/own-website/hugo-github-pages/01_build_a_website_using_hugo_index/</guid>
+      <guid>https://code-with-dilip.github.io/own-website/hugo-github-pages/</guid>
       <description>This article explains about how to build a website using Hugo and host it in GitHub-Pages
 Introduction In this article, I will take you all step by step to build a website using Hugo and host it using GitHub Pages
 For any developer out there, having a website is a great way to share knowledge to the outside world. Prerequisites Hugo needs to be installed in your machine Installation Steps of hugo Knowledge of working with Github is required What is Hugo ?</description>
-    </item>
-    <item>
-      <title>Part 2 - Add Disqus Commenting System to Your Website in Hugo</title>
-      <link>https://code-with-dilip.github.io/own-website/hugo-github-pages/02_adding-comments-to-your-website/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://code-with-dilip.github.io/own-website/hugo-github-pages/02_adding-comments-to-your-website/</guid>
-      <description>This article explains about how to build a website using Hugo and host it in GitHub-Pages
-Introduction In this article, I will take you all step by step to add the Disqus commenting system to the Website built using Hugo.
-What is Disqus? Disqus is a Commenting Platform that can be added to your website to increase user engagement for your website or blog. Why Disqus ? This is nice plugin that can be easily integrated in to your website Disqus offers a free plan that can be used to enable comments to your blogs or website This platform retains all the comments for your blog or website per page which is an awesome way to interact with the readers Let&amp;rsquo;s add the Disqus to our Website To add Disqus, we need to make changes to the relearn theme that we added in the previous post</description>
     </item>
   </channel>
 </rss>
