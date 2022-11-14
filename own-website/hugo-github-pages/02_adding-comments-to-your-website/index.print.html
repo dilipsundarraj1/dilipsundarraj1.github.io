@@ -6,8 +6,9 @@
     <meta name="generator" content="Hugo 0.102.3">
     <meta name="generator" content="Relearn 5.3.3+tip">
     <meta name="description" content="">
-    <title>Tags :: Code With Dilip</title>
-    <link href="/tags/index.xml" rel="alternate" type="application/rss+xml" title="Code With Dilip">
+    <title>Part 2 - Add Disqus Commenting System to Your Website in Hugo :: Code With Dilip</title>
+    <link href="/own-website/hugo-github-pages/02_adding-comments-to-your-website/" rel="canonical" type="text/html" title="Code With Dilip">
+    <link href="/own-website/hugo-github-pages/02_adding-comments-to-your-website/index.xml" rel="alternate" type="application/rss+xml" title="Code With Dilip">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
     <link href="/css/fontawesome-all.min.css?1668460697" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1668460697" rel="stylesheet"></noscript>
     <link href="/css/featherlight.min.css?1668460697" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1668460697" rel="stylesheet"></noscript>
@@ -20,6 +21,7 @@
     <link href="/css/ie.css?1668460697" rel="stylesheet">
     <link href="/css/variant.css?1668460697" rel="stylesheet">
     <link href="/css/print.css?1668460697" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1668460697" rel="stylesheet">
     <script src="/js/variant.js?1668460697"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
@@ -38,7 +40,7 @@
     </script>
     <script src="/js/jquery.min.js?1668460697" defer></script>
   </head>
-  <body class="mobile-support html" data-url="/tags/">
+  <body class="mobile-support print" data-url="/own-website/hugo-github-pages/02_adding-comments-to-your-website/">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
@@ -48,16 +50,38 @@
              <span class="nav nav-next"><i class="fa fa-chevron-right fa-fw"></i></span>
           </div>
           <div class="navigation">
-             <a class="nav nav-prev" href="/own-website/hugo-github-pages/02_adding-comments-to-your-website/" title="Part 2 - Add Disqus Commenting System to Your Website in Hugo (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+             <a class="nav nav-prev" href="/own-website/hugo-github-pages/01_build_a_website_using_hugo_index/" title="Part 1 - Build a Website Using Hugo &amp; Host in GitHub Pages (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link" title='Print whole chapter (CTRL+ALT+p)' href="/own-website/hugo-github-pages/02_adding-comments-to-your-website/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
           </div>
           <div id="breadcrumbs">
             <span id="sidebar-toggle-span">
               <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
             </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"> > </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Tags</span><meta itemprop="position" content="2"></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/own-website/"><span itemprop="name">Build Your Own Website</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Part 2 - Add Disqus Commenting System to Your Website in Hugo</span><meta itemprop="position" content="2"></li>
             </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#what-is-disqus">What is Disqus?</a></li>
+    <li><a href="#why-disqus-">Why Disqus ?</a></li>
+    <li><a href="#lets-add-the-disqus-to-our-website">Let&rsquo;s add the Disqus to our Website</a>
+      <ul>
+        <li><a href="#step-1---create-and-configure-disqus-account">Step 1 - Create and Configure Disqus Account</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </div>
           </div>
         </div>
       </nav>
@@ -65,15 +89,57 @@
         <div class="flex-block-wrapper">
           <div id="head-tags">
           </div>
-          <article>
+    
+          <article class="default">
+<h1>Part 2 - Add Disqus Commenting System to Your Website in Hugo</h1>
 
-<h1>Tags</h1>
+<p>This article explains about how to build a website using <strong>Hugo</strong> and host it in <strong>GitHub-Pages</strong></p>
+<h2 id="introduction">Introduction</h2>
+<p>In this article, I will take you all step by step to add the <strong><a href="https://disqus.com/">Disqus</a></strong> commenting system to the Website built using <strong>Hugo</strong>.</p>
+<h2 id="what-is-disqus">What is Disqus?</h2>
 <ul>
+<li>Disqus is a <strong>Commenting Platform</strong> that can be added to your website to increase user engagement for your website or blog.</li>
 </ul>
+<h2 id="why-disqus-">Why Disqus ?</h2>
+<ul>
+<li>This is nice plugin that can be easily integrated in to your website</li>
+<li>Disqus offers a <strong>free</strong> plan that can be used to enable comments to your blogs or website</li>
+<li>This platform retains all the comments for your blog or website per page which is an awesome way to interact with the readers</li>
+</ul>
+<h2 id="lets-add-the-disqus-to-our-website">Let&rsquo;s add the Disqus to our Website</h2>
+<p>To add Disqus, we need to make changes to the relearn theme that we added in the previous post</p>
+<h3 id="step-1---create-and-configure-disqus-account">Step 1 - Create and Configure Disqus Account</h3>
+<p>Let&rsquo;s navigate to <a href="https://disqus.com/">https://disqus.com/</a></p>
+<ul>
+<li>Click on <strong>Get Started</strong> button</li>
+</ul>
+<p><img src="/own-website/hugo-github-pages/02_adding-comments-to-your-website/images/disqus/01-disqus.png" alt="disqus"></p>
+<ul>
+<li>Select <strong>I want to install Disqus on my site</strong></li>
+</ul>
+<p><img src="/own-website/hugo-github-pages/02_adding-comments-to-your-website/images/disqus/02-disqus.png" alt="install Disqus"></p>
+<ul>
+<li>Provide a <strong>Website Name</strong>. In this example, we have provided the value as <strong>dilipsundarraj</strong>.</li>
+</ul>
+<p><img src="/own-website/hugo-github-pages/02_adding-comments-to-your-website/images/disqus/03-disqus.png" alt="Website"></p>
+<ul>
+<li>Let&rsquo;s go with <strong>Basic</strong> option and select <strong>Subscribe Now</strong> button</li>
+</ul>
+<p><img src="/own-website/hugo-github-pages/02_adding-comments-to-your-website/images/disqus/04-disqus.png" alt="Website"></p>
+<ul>
+<li>Since <strong>Hugo</strong> is not displayed as an option, Lets select the <strong>Highlighted</strong> option below.</li>
+</ul>
+<p><img src="/own-website/hugo-github-pages/02_adding-comments-to-your-website/images/disqus/05-disqus.png" alt="Manual Install"></p>
+<ul>
+<li>Go to the bottom of the page and select the <strong>Configure</strong> button</li>
+<li>Click <strong>next</strong> and <strong>Complete Setup</strong> button</li>
+</ul>
+<p>We have <strong>successfully</strong> created a disqus website named <strong>dilipsundarraj</strong></p>
 
             <footer class="footline">
             </footer>
-          </article>        </div>
+          </article>
+        </div>
       </main>
 <style>
   .disqus_thread{
@@ -191,9 +257,9 @@
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics">
-          <li data-nav-id="/own-website/" class="dd-item"><a href="/own-website/">Build Your Own Website</a><ul id="subsections-127e13ab74b9230c7374bd3e0e9aede8">
+          <li data-nav-id="/own-website/" class="dd-item parent"><a href="/own-website/">Build Your Own Website</a><ul id="subsections-127e13ab74b9230c7374bd3e0e9aede8">
           <li data-nav-id="/own-website/hugo-github-pages/01_build_a_website_using_hugo_index/" class="dd-item"><a href="/own-website/hugo-github-pages/01_build_a_website_using_hugo_index/">Part 1 - Build a Website Using Hugo &amp; Host in GitHub Pages</a></li>
-          <li data-nav-id="/own-website/hugo-github-pages/02_adding-comments-to-your-website/" class="dd-item"><a href="/own-website/hugo-github-pages/02_adding-comments-to-your-website/">Part 2 - Add Disqus Commenting System to Your Website in Hugo</a></li></ul></li>
+          <li data-nav-id="/own-website/hugo-github-pages/02_adding-comments-to-your-website/" class="dd-item active"><a href="/own-website/hugo-github-pages/02_adding-comments-to-your-website/">Part 2 - Add Disqus Commenting System to Your Website in Hugo</a></li></ul></li>
         </ul>
         <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
         <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
@@ -239,3 +305,4 @@
     <script src="/js/theme.js?1668460697" defer></script>
   </body>
 </html>
+

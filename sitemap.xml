@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://code-with-dilip.github.io/own-website/hugo-github-pages/</loc>
-  </url>
-  <url>
     <loc>https://code-with-dilip.github.io/own-website/</loc>
   </url>
   <url>
     <loc>https://code-with-dilip.github.io/</loc>
+  </url>
+  <url>
+    <loc>https://code-with-dilip.github.io/own-website/hugo-github-pages/01_build_a_website_using_hugo_index/</loc>
+  </url>
+  <url>
+    <loc>https://code-with-dilip.github.io/own-website/hugo-github-pages/02_adding-comments-to-your-website/</loc>
   </url>
   <url>
     <loc>https://code-with-dilip.github.io/categories/</loc>
