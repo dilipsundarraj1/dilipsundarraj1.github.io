@@ -7,6 +7,13 @@
     "uri": "/own-website/hugo-github-pages/"
   },
   {
+    "content": "About Me Hello, I am Dilip I am a Software Engineer \u0026 Tech Savvy who have been building software since 2008\nLearning is fun, but sharing is more fun. The reason why I started this website is to share the technical knowledge I have gained over the years to benefit fellow developers.\nI believe in lifelong learning and sharing what you learnt is the best way to live the life. ",
+    "description": "",
+    "tags": null,
+    "title": "Home",
+    "uri": "/"
+  },
+  {
     "content": "This section covers how to build a website using Hugo and host it in github pages. ",
     "description": "",
     "tags": null,
@@ -14,11 +21,11 @@
     "uri": "/own-website/"
   },
   {
-    "content": "About Me Hello, I am Dilip I am a Software Engineer \u0026 Tech Savvy who have been building software since 2008\nLearning is fun, but sharing is more fun. The reason why I started this website is to share the technical knowledge I have gained over the years to benefit fellow developers.\nI believe in lifelong learning and sharing what you learnt is the best way to live the life. ",
+    "content": "Introduction In this article, I will take you all step by step to add the Disqus commenting system to the Website built in Hugo using Relearn theme.\nWhat is Disqus? Disqus is a Commenting Platform that can be added to your website to increase user engagement for your website or blog. Why Disqus ? This is nice plugin that can be easily integrated in to your website Disqus offers a free plan that can be used to enable comments to your blogs or website This platform retains all the comments for your blog or website per page which is an awesome way to interact with the readers Let’s add the Disqus to our Website To add Disqus, we need to make changes to the relearn theme that we added in the previous post\nStep 1 - Create and Configure Disqus Account Let’s navigate to https://disqus.com/\nClick on Get Started button Select I want to install Disqus on my site Provide a Website Name. In this example, we have provided the value as dilipsundarraj. Let’s go with Basic option and select Subscribe Now button Since Hugo is not displayed as an option, Lets select the Highlighted option below. Go to the bottom of the page and select the Configure button Click next and Complete Setup button We have successfully created a disqus website named dilipsundarraj\nStep 2 - Integrate Disqus in to our Website Update the config.toml file with the disqus site that we create in the previous step.\ndisqusShortname = \"dilipsundarraj\" Create a disqus.html file and add html file in this themes/hugo-theme-relearn/layouts/partials/ folder\ndisqus.html \u003cstyle\u003e .disqus_thread{ display: flex; width: 50%; margin:auto; height: 5% } \u003c/style\u003e \u003cdiv id=\"disqus_thread\" class=\"disqus_thread\" \u003e\u003c/div\u003e \u003cscript type=\"text/javascript\"\u003e (function() { var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; var disqus_shortname = '{{ .Site.DisqusShortname }}'; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); })(); \u003c/script\u003e \u003cnoscript\u003ePlease enable JavaScript to view the \u003ca href=\"https://disqus.com/?ref_noscript\"\u003ecomments powered by Disqus.\u003c/a\u003e\u003c/noscript\u003e \u003ca href=\"https://disqus.com/\" class=\"dsq-brlink\"\u003ecomments powered by \u003cspan class=\"logo-disqus\"\u003eDisqus\u003c/span\u003e\u003c/a\u003e Open the footer.html and add this line\nfooter.html footer.html is located in the themes/hugo-theme-relearn/layouts/partials/ folder Add the below line after the \u003c/main\u003e tag {{- partial \"disqus.html\" . }} Step 3 - Let’s test it Run the follow command\nhugo serve You should be able to see the below comments section show up in your website Conclusion Congrats! We have successfully added the disqus commenting system to our website. ",
     "description": "",
     "tags": null,
-    "title": "Home",
-    "uri": "/"
+    "title": "Add Commenting System to Your Website in Hugo",
+    "uri": "/own-website/add-discuss-comments/"
   },
   {
     "content": "",
